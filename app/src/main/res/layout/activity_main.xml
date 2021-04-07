@@ -219,11 +219,12 @@
 
     <TextView
         android:id="@+id/annualSalary"
-        android:layout_width="133dp"
-        android:layout_height="33dp"
+        android:layout_width="161dp"
+        android:layout_height="35dp"
         android:background="#00B0FF"
         android:gravity="center_vertical"
         android:text="@string/annualSalary"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -232,12 +233,13 @@
 
     <TextView
         android:id="@+id/biSalary"
-        android:layout_width="136dp"
-        android:layout_height="30dp"
+        android:layout_width="161dp"
+        android:layout_height="36dp"
         android:layout_marginTop="40dp"
         android:background="#00B0FF"
         android:gravity="center_vertical"
         android:text="@string/biWeeklySalary"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"

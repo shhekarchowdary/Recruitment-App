@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import java.util.HashMap;
 
+    //https://github.com/shhekarchowdary/Recruitment-App
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     TextView basicSalary,totalSalary,biWeeklySalary;
@@ -122,10 +123,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             }
 
                             double toSalary = (basicSal + expBonus + langBonus)*12.0;
-                            totalSalary.setText(Double.toString(toSalary));
+                            totalSalary.setText(String.format("%.2f",toSalary));
 
                             double biSalary = (toSalary/365)*14;
-                            biWeeklySalary.setText(Double.toString(biSalary));
+                            biWeeklySalary.setText(String.format("%.2f",biSalary));
 
                             programBonus.put("C#",200.0);
                             programBonus.put("Java",190.0);
