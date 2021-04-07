@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Recruitment App</string>
+    <string name="qualificationtxt">Qualification</string>
+    <string name="experience">Experience</string>
+    <string name="enterExperience">Enter Experience in Years</string>
+    <string name="enterQualification">Enter Qualification</string>
+    <string name="EnterLanguages">Languages Known</string>
+    <string name="enterProgrammingLangusges">Enter Programming Languages Known</string>
+    <string name="getSalary">Calculate Salary</string>
+    <string name="annualSalary">Annual Salary</string>
+    <string name="biWeeklySalary">Bi-Weekly Salary</string>
+</resources>
